@@ -80,7 +80,7 @@ export default function MiniPlanetPage() {
           >
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#DDD6FE]">
               <img
-                src="/images/sala-eventos-privada-altea.png"
+                src={`${import.meta.env.BASE_URL}images/sala-eventos-privada-altea.png`}
                 alt="Sala de eventos privada en MiniPlanet Altea"
                 loading="lazy"
                 width={600}
@@ -107,7 +107,7 @@ export default function MiniPlanetPage() {
           >
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#FED7AA]">
               <img
-                src="/images/parque-bolas-cumpleanos-altea.png"
+                src={`${import.meta.env.BASE_URL}images/parque-bolas-cumpleanos-altea.png`}
                 alt="Parque de bolas y zona infantil en MiniPlanet Altea"
                 loading="lazy"
                 width={600}

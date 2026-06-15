@@ -20,7 +20,7 @@ export const SERVICES = [
     description:
       'Una fiesta diseñada para el protagonista del día. Sala privada exclusiva con todo lo que necesitas para que el momento sea perfecto.',
     price: 'Desde 150 €',
-    image: '/images/cumpleanos-infantil-altea.png',
+    image: `${import.meta.env.BASE_URL}images/cumpleanos-infantil-altea.png`,
     slug: '/tarifas#cumpleanos',
   },
   {
@@ -29,7 +29,7 @@ export const SERVICES = [
     description:
       'Aventuras emocionantes para pequeños detectives. Mystery Box, Escape Room clásico y Láser Tag para vivir la misión.',
     price: 'Desde 20 € /persona',
-    image: '/images/escape-room-infantil-altea.png',
+    image: `${import.meta.env.BASE_URL}images/escape-room-infantil-altea.png`,
     slug: '/tarifas#escape-rooms',
   },
   {
@@ -38,7 +38,7 @@ export const SERVICES = [
     description:
       'Animadores, pintacaras y espectáculos adaptados a la temática de tu fiesta para que los niños no paren de reír.',
     price: 'Desde 70 € /hora',
-    image: '/images/animacion-fiestas-infantiles-altea.png',
+    image: `${import.meta.env.BASE_URL}images/animacion-fiestas-infantiles-altea.png`,
     slug: '/tarifas#animacion',
   },
   {
@@ -47,7 +47,7 @@ export const SERVICES = [
     description:
       'Photocall 360º, pantalla interactiva y retro gaming para subir la emoción de la fiesta a otro nivel.',
     price: 'Desde 70 €',
-    image: '/images/entretenimiento-extra-altea.png',
+    image: `${import.meta.env.BASE_URL}images/entretenimiento-extra-altea.png`,
     slug: '/tarifas#entretenimiento',
   },
 ];
@@ -65,7 +65,7 @@ export const PRICING = [
       'Parque infantil de 30 m² (hasta 30 niños)',
       'Catering opcional',
     ],
-    image: '/images/cumpleanos-infantil-altea.png',
+    image: `${import.meta.env.BASE_URL}images/cumpleanos-infantil-altea.png`,
     accent: 'orange',
   },
   {
@@ -77,7 +77,7 @@ export const PRICING = [
       'Escape Room clásico',
       'Láser Tag',
     ],
-    image: '/images/escape-room-infantil-altea.png',
+    image: `${import.meta.env.BASE_URL}images/escape-room-infantil-altea.png`,
     accent: 'violet',
   },
   {
@@ -89,7 +89,7 @@ export const PRICING = [
       'Pintacaras profesional',
       'Espectáculos a medida',
     ],
-    image: '/images/animacion-fiestas-infantiles-altea.png',
+    image: `${import.meta.env.BASE_URL}images/animacion-fiestas-infantiles-altea.png`,
     accent: 'pink',
   },
   {
@@ -101,7 +101,7 @@ export const PRICING = [
       'Pantalla interactiva',
       'Retro gaming',
     ],
-    image: '/images/entretenimiento-extra-altea.png',
+    image: `${import.meta.env.BASE_URL}images/entretenimiento-extra-altea.png`,
     accent: 'orange',
   },
 ];

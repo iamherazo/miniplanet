@@ -9,18 +9,14 @@ export default function Home() {
     <main>
       {/* ── Hero ── */}
       <section className="relative min-h-[100dvh] flex flex-col items-center justify-center overflow-hidden">
-        {/* Video / poster background */}
-        <video
-          className="absolute inset-0 w-full h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster="/images/hero-miniplanet-altea.png"
+        {/* Hero background image */}
+        <img
+          src={`${import.meta.env.BASE_URL}images/hero-miniplanet-altea.png`}
+          alt=""
           aria-hidden="true"
-        >
-          <source src="/videos/hero-miniplanet.mp4" type="video/mp4" />
-        </video>
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          fetchPriority="high"
+        />
         {/* Overlay gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#1A1040]/60 via-[#1A1040]/30 to-[#1A1040]/70" />
 
@@ -205,7 +201,7 @@ export default function Home() {
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#3D2D70]">
                 <img
-                  src="/images/parque-infantil-cumpleanos-altea.png"
+                  src={`${import.meta.env.BASE_URL}images/parque-infantil-cumpleanos-altea.png`}
                   alt="Parque infantil y sala de fiestas en MiniPlanet Altea"
                   loading="lazy"
                   width={600}
